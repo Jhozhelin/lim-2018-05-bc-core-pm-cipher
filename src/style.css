@@ -1,8 +1,17 @@
-body{
-  background-color: pink;
+div{
+  width:auto;
+  height:100px ;
+  background:#F5A9BC;
+  color:#ffffff;
+  font-size:30px;
 
 }
 
-h2{
-  color:white;
+h1{
+  position: absolute;
+  top:0;
+  bottom:0;
+  right: 0;
+  left:450px;
+
 }
