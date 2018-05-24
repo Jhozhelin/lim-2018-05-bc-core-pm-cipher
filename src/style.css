@@ -1,7 +1,8 @@
-div{
+
+.titulo{
   width:auto;
-  height:100px ;
-  background:#F5A9BC;
+  height:125px ;
+  background:#58ACFA;
   color:#ffffff;
   font-size:30px;
 
@@ -12,6 +13,23 @@ h1{
   top:0;
   bottom:0;
   right: 0;
-  left:450px;
+  left:380px;
 
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+
+}
+
+div {
+    padding: 20px;
+}
+
+input {
+    padding: 4px;
+    margin: 10px 0 10px 0;
 }

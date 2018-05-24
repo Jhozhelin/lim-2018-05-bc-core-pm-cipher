@@ -6,18 +6,49 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Cifrado Cesar</h1>
 
-    <br>
-    <textarea name="textarea" rows="10" cols="50"></textarea>
+    <div class="titulo">
+    <h1>CIFRADO CESAR</h1>
+    </div><br><br>
 
-    <br>
+		<div style="float:left;">
+			<label>Insertar texto:</label>
+			<br>
+			<textarea id="decrypted" placeholder="Por favor, escriba el texto para cifrar aquí"></textarea>
+			<br>
+			<label>Texto para decifrar:</label>
+			<br>
+			<textarea id="encrypted" placeholder="Por favor, escriba texto cifrado para descifrar aquí"></textarea>
+		  </div>
 
-    <!--boton de para inicio-->
+      <div style="float:left;">
+  			<label></label>
+  			<br>
 
-      <button id="boton">Cifrado</button>
-      <button id="boton1">Deciifrar</button>
+  			<input type="submit" onclick="encrypt()" value="Cifrar"><br>
+  			<input type="submit" onclick="decrypt()" value="Decifrar"><br>
+  			<input type="reset" onclick="clearBoxes()" value="Reiniciar"><br>
+  		</div>
 
 
-  </body>
+
+      <p id="demo"></p>
+
+      <script>
+      function myFunction() {
+      var res = String.fromCharCode(72, 69, 76, 76, 79);
+      document.getElementById("demo").innerHTML = res;
+      }
+    </script>
+
+
+
+      <div>
+			<label>Texto Cifrado</label><br>
+			<textarea id="chains" readonly></textarea>
+		  </div>
+
+      <script src="index.js"></script>
+
+    </body>
 </html>
