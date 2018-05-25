@@ -9,27 +9,28 @@
 
     <div class="titulo">
     <h1>CIFRADO CESAR</h1>
-    </div><br>
+    </div>
 
+			<h2>Insertar texto</h2>
 
-			<label>Insertar texto:</label>
-			<br>
 			<textarea id="decrypted" placeholder="Por favor, escriba el texto para cifrar aquí"></textarea>
 			<br>
-			<label>Texto para decifrar:</label>
-			<br>
+			<h2>Texto para decifrar</h2>
+
 			<textarea id="encrypted" placeholder="Por favor, escriba texto cifrado para descifrar aquí"></textarea>
 		  </div>
+      <br>
 
-      <div class="input">    
+      <div class="button">
     <input type="number" id="key" min="0" max="8" value="0">
     <input type="submit" onclick="encrypt()" value="Cifrar">
     <input type="submit" onclick="decrypt()" value="Decifrar">
   </div>
 
-
+  <br>
   <div>
-			<label>Cifrado y Decifrado</label><br>
+			<h2>Cifrado y Decifrado</h2>
+      
 			<textarea id="chains" readonly></textarea>
 		</div>
 

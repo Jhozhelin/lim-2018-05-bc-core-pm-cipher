@@ -1,8 +1,19 @@
+body{
+  background-color: #A9BCF5;
+}
+
+.titulo{
+  color:#fff ;
+  font-family: cursive;
+  font-size: 150%;
+  text-align: center;
+}
+
 textarea {
     width: 400px;
     height: 100px;
     text-transform: uppercase;
-    margin: 10px 0 10px 0;
+    margin: auto;
 }
 select {
     width: 100px;
@@ -12,18 +23,13 @@ section {
     width: 90%;
     padding: 20px;
 }
-h3, h5 {
-    text-align: center;
-}
-div {
-    padding: 20px;
-    top: auto;
-}
+
+
 input {
     padding: 4px;
-
-
 }
-#chains {
-    float: left;
-  }
+
+h2{
+  font-family: cursive;
+  color: #0080FF;
+}
