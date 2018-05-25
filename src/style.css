@@ -1,35 +1,29 @@
-
-.titulo{
-  width:auto;
-  height:125px ;
-  background:#58ACFA;
-  color:#ffffff;
-  font-size:30px;
-
-}
-
-h1{
-  position: absolute;
-  top:0;
-  bottom:0;
-  right: 0;
-  left:380px;
-
-}
-
 textarea {
     width: 400px;
     height: 100px;
     text-transform: uppercase;
     margin: 10px 0 10px 0;
-
 }
-
-div {
+select {
+    width: 100px;
+}
+section {
+    margin: auto;
+    width: 90%;
     padding: 20px;
 }
-
+h3, h5 {
+    text-align: center;
+}
+div {
+    padding: 20px;
+    top: auto;
+}
 input {
     padding: 4px;
-    margin: 10px 0 10px 0;
+
+
 }
+#chains {
+    float: left;
+  }
