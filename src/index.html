@@ -1,39 +1,35 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
-
-    <div class="titulo">
-    <h1>CIFRADO CESAR</h1>
+      <div id=title>
+      <center><h1>Cifrado César</h1></center>
+      </div>
+      <div>
+          <center><h2>Escribe tu mensaje <br>👇</h2>
+      <textarea id="in" rows="6" cols="50"></textarea>
     </div>
+    <center>
+      <h2>Clave de cifrado/descifrado</h2><input id="key" type="number" max=25 min=1 />
+      <div><button id="encrypted">Cifrar</button>
+      <button id="decrypted">Descifrar</button>
+      <p id="out-title"><strong> Resultado</strong></p>
+      <textarea id="out"></textarea>
 
-			<h2>Insertar texto</h2>
-
-			<textarea id="decrypted" placeholder="Por favor, escriba el texto para cifrar aquí"></textarea>
-			<br>
-			<h2>Texto para decifrar</h2>
-
-			<textarea id="encrypted" placeholder="Por favor, escriba texto cifrado para descifrar aquí"></textarea>
-		  </div>
-      <br>
-
-      <div class="button">
-    <input type="number" id="key" min="0" max="8" value="0">
-    <input type="submit" onclick="encrypt()" value="Cifrar">
-    <input type="submit" onclick="decrypt()" value="Decifrar">
-  </div>
-
-  <br>
-  <div>
-			<h2>Cifrado y Decifrado</h2>
-      
-			<textarea id="chains" readonly></textarea>
-		</div>
-
-      <script type="text/javascript" src="index.js"></script>
+    </center>
+    </div>
     </body>
+
+
+    <div id="root"></div>
+    <script src="index.js"></script>
+    <script src="cipher.js"></script>
+
+  </body>
 </html>
