@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chat friends</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+      <div id="Logo"> <img src="imagenes/Logo.png"> </div>
+
+      <center><h1>friends</h1></center>
+      <!-- <hr> -->
+      <!--imagenes-->
+      <center>
+      <div>
+        <img src="imagenes/primero.png">
+        <img src="imagenes/segundo.png">
+        <img src="imagenes/tercero.png">
+        <img src="imagenes/cuarto.png">
+        <img src="imagenes/quinto.png">
+        <img src="imagenes/sexto.png">
+      </div></center>
+
+      <!-- texto de entrada -->
+      <textarea id="estiloE" rows="7" cols="50" placeholder= "Ingresa mensaje para Cifrar"></textarea>
+        <!-- texto de entrada -->
+      <textarea id="estiloS" rows="7" cols="50"  placeholder= "Pega este mensaje en el 1er cuadro"></textarea>
+
+    <center>
+       <h3>Chat para enviar mensajes secretos entre amigos<br>
+         para planificar actividades.</h3>
+
+      <input type="number" id="Ndesplazamiento" placeholder= "N°">
+
+      <input type="button" value="Cifrar" id="Bcifrado">
+      <input type="button" value="Descifrar" id="Bdescifrado">
+
+      <!-- <p id="textoS"><strong> Solución</strong></p> -->
+      <!-- contenido de cifrado -->
+
+    </center>
+
+
+    <div id="root"></div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+
+
+  </body>
+</html>
