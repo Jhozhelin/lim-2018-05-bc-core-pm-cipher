@@ -7,17 +7,17 @@ h1 {
   position: absolute;
   color: #fff;
   font-family:cursive;
-  font-size: 250%;
+  font-size: 200%;
   top: 20px;
   right: 500px;
 }
 
-#Logo{
-  position: relative;
-  top: 0;
-  left: 500px;
-  width: 25px;
-  height: inherit;
+.logo{
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  width: 15%;
+  height: auto;
 }
 
 h3{
@@ -25,12 +25,15 @@ h3{
   font-size: 85%;
   font-family: cursive;
   color: #fff;
-  top: 3px;
+  top: 130px;
+  text-align: center;
 }
 img{
-  width: 180px;
+  top: 125px;
+  position: relative;
+  width: 16%;
   height: auto;
-  margin: auto;
+  right: auto;
 }
 /* estilo para cuadros de text */
 #estiloE {
@@ -40,6 +43,7 @@ img{
         left:350px;
         right:0;
         width:20%;
+
 }
 
 #estiloS {
@@ -49,7 +53,8 @@ img{
     right: 0;
     left: 650px;
     width:20%;
-    /* float: right;  */
+
+
   }
 
   #Ndesplazamiento{
@@ -73,14 +78,16 @@ img{
     text-align: center;
     font-size: 17px;
     border-radius: 18px;
-    right: 85px;
-    top: 150px ;
+    right: -400px;
+    top: 260px ;
     font-family: cursive;
+
 }
 
 #Bcifrado:hover {
     background-color: #fff;
     color: #02C6B7;
+
 }
 #Bdescifrado {
     position: relative;
@@ -92,13 +99,15 @@ img{
     text-align: center;
     font-size: 17px;
     border-radius: 18px;
-    left: 85px;
-    top: 150px;
+    left: 550px;
+    top: 260px;
     font-family: cursive;
+
 
 }
 #Bdescifrado:hover {
     background-color: #fff;
     color: #02C6B7;
+    right: auto;
 
 }
